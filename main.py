@@ -1,3 +1,5 @@
+print("🚀 MAIN.PY STARTED")
+
 import os
 import telebot
 from telebot.types import InlineKeyboardMarkup, InlineKeyboardButton
@@ -124,4 +126,7 @@ def drink(call):
     )
 
 print("🧪 BOT STARTED")
+print("🤖 BOT POLLING START")
+bot.infinity_polling()
+
 bot.infinity_polling()
